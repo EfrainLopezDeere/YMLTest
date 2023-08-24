@@ -39,9 +39,9 @@ body:
       label: Steps to Reproduce
       description: What we can do to enconter this bug?
       placeholder: Steps to reproduce
-      value: "1.- Open DevX and log in/n
-      2.- Click on .../n
-      3.- Scroll down to .../n
+      value: "1.- Open DevX and log in\n
+      2.- Click on ...\n
+      3.- Scroll down to ...\n
       4.- See error"
     validations:
       required: true 
