@@ -46,7 +46,7 @@ body:
     validations:
       required: true 
   - type: textarea
-    id: steps
+    id: enviroment
     attributes:
       label: Your Enviroment
       description: Your setup
