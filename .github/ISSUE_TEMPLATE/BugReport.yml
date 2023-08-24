@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["FOCUS/DevX"]
+projects: ["FOCUS"]
 
 body:
   - type: markdown
@@ -39,25 +39,23 @@ body:
       label: Steps to Reproduce
       description: What we can do to enconter this bug?
       placeholder: Steps to reproduce
-      value: "1.- Open DevX and log in\n
+      value: "1.- Open Tool and log in\n
       2.- Click on ...\n
       3.- Scroll down to ...\n
       4.- See error"
     validations:
       required: true 
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: steps
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 2.10
-        - 2.9
-        - 2.8
-        - 2.7
-      default: 0
+      label: Your Enviroment
+      description: Your setup
+      placeholder: Tool version...
+      value: "* Tool Name:xxx\n
+      *Tool Version:xxx\n
+      *Operating System:\n"
     validations:
-      required: true
+      required: true 
   - type: textarea
     id: info
     attributes:
