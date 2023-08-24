@@ -1,0 +1,49 @@
+name: Feature Request
+description: Request a new Feature for a tool
+title: "[Feature Request]: "
+labels: ["Feature Request", "enhancement"]
+projects: ["FOCUS"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new Feature for our tools!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: fature
+    attributes:
+      label: Describe the Feature
+      description: Tell us, the expect behavior
+      placeholder: Tell us what you expect!
+    validations:
+      required: true
+  - type: textarea
+    id: possibleSol
+    attributes:
+      label: Possible Solution
+      description: How we can implement this?
+      placeholder: Tell us how we can implement this, adding a button, adding a widget, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Share with us some context of this feature
+      placeholder: Tell us...
+    validations:
+      required: false 
+  - type: textarea
+    id: imgs
+    attributes:
+      label: Screenshots
+      description: Paste your imgs here if you have it
+      placeholder: Ctrl+v to paste screenshots here...
