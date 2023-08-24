@@ -21,7 +21,7 @@ body:
     id: what-happened
     attributes:
       label: Describe the bug
-      description: Tell us, what happen?
+      description: Tell us, what happened?
       placeholder: Tell us what you see!
     validations:
       required: true
@@ -29,8 +29,8 @@ body:
     id: what-supposed
     attributes:
       label: Expected Behavior
-      description: What did you expect to happen?
-      placeholder: Tell us what you expect!
+      description: What did you expect to happened?
+      placeholder: Tell us what you expect to happened!
     validations:
       required: true
   - type: textarea
@@ -39,9 +39,9 @@ body:
       label: Steps to Reproduce
       description: What we can do to enconter this bug?
       placeholder: Steps to reproduce
-      value: "1.- Open DevX and log in
-      2.- Click on ...
-      3.- Scroll down to ...
+      value: "1.- Open DevX and log in/n
+      2.- Click on .../n
+      3.- Scroll down to .../n
       4.- See error"
     validations:
       required: true 
