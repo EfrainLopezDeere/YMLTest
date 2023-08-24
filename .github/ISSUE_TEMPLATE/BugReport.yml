@@ -62,7 +62,7 @@ body:
         - 2.2
         - 2.1
         - 2.0
-      default: 2.10
+      default: 0
     validations:
       required: true
   - type: textarea
