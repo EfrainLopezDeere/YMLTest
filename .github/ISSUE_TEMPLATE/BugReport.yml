@@ -51,21 +51,35 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+        - 2.10
+        - 2.9
+        - 2.8
+        - 2.7
+        - 2.6
+        - 2.5
+        - 2.4
+        - 2.3
+        - 2.2
+        - 2.1
+        - 2.0
+      default: 2.10
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: info
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: Addiional Information
+      description: Share more info with us
+      placeholder: ex. cf40000.cfg
+      value: "1.- Config:\n2.-Opcode:\n3.-Calibration:xxx\n4.-Additional Files:xxx\n5.-Location of File:xxx\n"
+    validations:
+      required: false
+  - type: textarea
+    id: imgs
+    attributes:
+      label: Screenshots
+      description: Paste your imgs here
+      placeholder: `Ctrl+v` to paste screenshots here...
   - type: textarea
     id: logs
     attributes:
