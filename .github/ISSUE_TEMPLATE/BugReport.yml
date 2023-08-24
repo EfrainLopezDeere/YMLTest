@@ -79,7 +79,7 @@ body:
     attributes:
       label: Screenshots
       description: Paste your imgs here
-      placeholder: `Ctrl+v` to paste screenshots here...
+      placeholder: Ctrl+v to paste screenshots here...
   - type: textarea
     id: logs
     attributes:
