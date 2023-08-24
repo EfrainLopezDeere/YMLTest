@@ -41,14 +41,12 @@ body:
       label: Steps to Reproduce
       description: What we can do to enconter this bug?
       placeholder: Steps to reproduce
-      value: "
-      1.- Open DevX and log in
+      value: "1.- Open DevX and log in
       2.- Click on ...
       3.- Scroll down to ...
-      4.- See error
-      "
+      4.- See error"
     validations:
-      required: true  
+      required: true 
   - type: dropdown
     id: version
     attributes:
